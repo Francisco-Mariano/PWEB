@@ -1,0 +1,91 @@
+
+body {
+    background:#269730;
+    background-repeat: no-repeat;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    line-height: 1.5;
+    background-size: cover;
+      background-attachment: scroll;
+      background-image: url('matrixxxx4.jpg');
+    }
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    }
+    
+  article {
+  background-color: rgba(115, 248, 7, 0.438);
+  border: 1px solid rgba(43, 197, 23, 0.445);
+  border-color: rgba(155, 247, 6, 0.432) rgba(60, 202, 24, 0.562) rgba(55, 155, 35, 0.507) rgb(30, 121, 38);
+  margin-bottom: 20px;
+  padding: 10px; 
+  }
+  
+  
+  article h2 {
+  border-bottom: 1px dashed rgba(59, 66, 56, 0.685);
+  margin: 0;
+  }
+  
+  article img {
+  border: 2px solid rgb(48, 58, 52);
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 2px;
+  width: 140px;
+  height: 200px;
+  }
+  
+  article a {
+  color: rgba(63, 73, 57, 0.74);
+  font-weight: bold;
+  }
+  
+  header h1 a {
+  color: rgb(245, 11, 11);
+  text-decoration: none;
+  margin-left:250px;
+  }
+  
+  header h1 a:hover {
+  background-color: rgb(230, 230, 230);
+  color: rgb(247, 238, 238);
+  }
+  
+  .clear { 
+  clear: both;
+  }
+  
+  footer {
+  font-size: 12px;
+  text-align: center;
+  }
+  
+  section { 
+  float: left;
+  width: 660px;
+  }
+  
+  aside {
+  background-color: rgb(48, 122, 35);
+  border: 1px solid rgba(47, 161, 47, 0.671);
+  padding: 10px;
+  float: right;
+  width: 260px;
+  }
+  
+  aside h3 {
+  font-size: 20px;
+  margin-top: 0;
+  }
+  
+  aside ol {
+  font-size: 15px;
+  }
+   
+  footer {
+    color: rgb(73, 126, 60)
+  }
+  
+  
