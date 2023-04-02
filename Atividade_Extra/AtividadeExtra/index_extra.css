@@ -1,0 +1,64 @@
+div {
+    width: 420px;
+    height: 420px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px) {
+    div {
+        background-color: rgb(7, 241, 7);
+    }
+
+    h1::after {
+        content: "Cor Verde";
+    }
+}
+
+@media  screen and (min-width: 421px) and (max-width: 768px){
+    div {
+        background-color: orange;
+    }
+
+    h1::after {
+        content: "Cor laranja";
+    }
+}
+
+@media  screen and (min-width: 769px) and (max-width: 1024px)  {
+    div {
+        background-color: rgb(197, 15, 158);
+    }
+
+    h1::after {
+        content: "Cor Rosa";
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1080px) {
+    div {
+        background-color: rgb(245, 11, 11);
+    }
+
+    h1::after {
+        content: "Cor Vermelho";
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1366px) {
+    div {
+        background-color: rgb(7, 50, 241);
+    }
+
+    h1::after {
+        content: "Cor Azul";
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    div {
+        background-color: rgb(204, 204, 19);
+    }
+
+    h1::after {
+        content: "Cor Amarelo";
+    }
+}
