@@ -1,0 +1,3 @@
+
+
+alert("peper pedra tesoura")
